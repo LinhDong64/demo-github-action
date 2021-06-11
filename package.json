@@ -1,0 +1,23 @@
+{
+  "name": "demo-github-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build source/main.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinhDong64/demo-github-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LinhDong64/demo-github-action/issues"
+  },
+  "homepage": "https://github.com/LinhDong64/demo-github-action#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.28.6"
+  }
+}
